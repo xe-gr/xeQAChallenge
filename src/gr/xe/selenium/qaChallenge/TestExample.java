@@ -14,12 +14,12 @@ public class TestExample {
     public void visitXeClickJobsTab() {
         //We get the current working directory - the project directory
         String path = System.getProperty("user.dir");
-        //Under that directory we get the web driver executable path
+        //Νο we get the web driver executable path under the above directory
+        String chromeDriverPath = path + "/src/resources/chromedriver.exe";
         //For this example chrome 93.0.4577.63 for windows has been used
         //If you have a later version you have to replace the chrome executable with the latest one
-        //Under this directory there also is the executable for linux environments
+        //Under the above directory there also is the executable for linux environments
         //Feel free to add and use any executable for any browser or environment that suits you
-        String chromeDriverPath = path + "/src/resources/chromedriver.exe";
         //After we have built the web driver path we load it to the corresponding property
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
         //We start the chromedriver
