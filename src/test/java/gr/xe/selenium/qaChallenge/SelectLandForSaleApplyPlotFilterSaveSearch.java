@@ -29,9 +29,9 @@ public class SelectLandForSaleApplyPlotFilterSaveSearch {
     public void visitXeSelectLandForSaleFromCategoriesPerformSearch() {
         //We start the chromedriver
         driver = new ChromeDriver();
-        //We define the implicti wait for this driver
+        //We define the implicit wait for this driver
         wait = new WebDriverWait(driver, 15);
-        //We visit gr.xe.gr
+        //We visit xe.gr
         driver.navigate().to("https://www.xe.gr/");
         //Select land for sale
         driver.findElement(By.cssSelector("a[href*='poliseis-gis']")).click();
