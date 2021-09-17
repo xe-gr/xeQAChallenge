@@ -8,7 +8,7 @@ The runnable test is TestExample.java in package gr.xe.selenium.qaChallenge.
 In the folder resources you may find the web driver executables, chromedriver and chromedriver.exe. chromedriver is for linux,
 while chromedriver.exe can be used for windows.
 
-The default configuration of this project is to run in windows(10 preferrably), with chrome 93.0.4577.63
+The default configuration of this project is to run in Windows, with chrome 93.0.4577.63
 
 If you want to use another version of chrome you must replace the executable in resources with the corresponding one. You may find all the
 available chromedriver versions here https://chromedriver.chromium.org/downloads
